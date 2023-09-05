@@ -8,7 +8,7 @@
 
 */
 
-makeNetworkCall("https://raw.githubusercontent.com/brainmentorspvtltd/DIT_FullStack/main/pizza.json")
+//makeNetworkCall("https://raw.githubusercontent.com/brainmentorspvtltd/DIT_FullStack/main/pizza.json")
 export async function makeNetworkCall(URL)
 {
 
@@ -29,8 +29,8 @@ export async function makeNetworkCall(URL)
    }
 
 
-    /*
-    const promise = fetch(URL) // as asyn
+    
+    //const promise = fetch(URL) // as asyn
     //fetch is async, so it will promise for something
     //URL specified in config file 
     /*fetch is a wrapper method of htpps.req ka (ES6). 
@@ -42,26 +42,26 @@ export async function makeNetworkCall(URL)
     data aaega, toh hum repond karenge
     */
 
-    /*
-    promise.then( (response)=>{
-        console.log(response);
-        // data aaya header aur body mei
-        // header + body --> abb hame response se body chahiye
-        const promise2 = response.json(); // json ko object mei convert krr rah
+    
+    // promise.then( (response)=>{
+    //     console.log(response);
+    //     // data aaya header aur body mei
+    //     // header + body --> abb hame response se body chahiye
+    //     const promise2 = response.json(); // json ko object mei convert krr rah
 
-        promise2.then( (data)=>{
-            console.log(data);
-            //yhn pe body se data aaega.
+    //     promise2.then( (data)=>{
+    //         console.log(data);
+    //         //yhn pe body se data aaega.
 
-        }).catch(()=>{
-            //yhn catch mei, ya toh invalid data
-        })
+    //     }).catch(()=>{
+    //         //yhn catch mei, ya toh invalid data
+    //     })
 
-    }).catch( (err)=> {
-        console.log(err); 
-        //yhn catch mei, ya to url galat hai, network down hai 
-    })
-    */
+    // }).catch( (err)=> {
+    //     console.log(err); 
+    //     //yhn catch mei, ya to url galat hai, network down hai 
+    // })
+    
 
 }
 

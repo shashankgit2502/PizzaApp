@@ -8,5 +8,6 @@ export class Pizza
         this.price = price;
         this.url = url;
         this.desc = desc;
+        this.isAddedInCart = false;
     }
 }

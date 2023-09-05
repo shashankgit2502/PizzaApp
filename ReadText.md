@@ -55,7 +55,43 @@ await = asyn wait. wait krna chahta hun, jbb tkk result nai mil jata.
 
 response.json() -  json ko object mei convert krr rah 
 
-sync - try catch
-async - then catch
+async - try catch
+sync - then catch
 
 append krdo, mtlb parent mei daal child ko
+
+** Adding to cart Functionality : 
+1. Add to cart button click event attach, bind function - controller (DOM)
+2. how function will identify which pizza add to cart is clicked ?
+3. we attach an id with every pizza (and that id must be unique)
+4. we get the pizza id, all id are coming and backend
+5. every pizza has unique id , coming back end
+6. saara data array mei hai, to Id find ke liye hum array mei usse search krr denge by find() function
+        to uss id ke corresponding voh object mil jaega, jo add to cart mei jaa rah hai
+7. phir hum ek flag denge ki, add to cart hai, mtlb vhn flag kr denge uss particular obj mei jo 
+        add to cart mei hai
+
+
+Add to cart layout :
+1. div -> pic -> name -> price
+2. phir breakup price(gst nd all) -> total
+3. pay now button
+
+Loader & Linker
+
+data ko agar in memory rakhna hai, toh object bnna do
+
+this --> mere pass jo hai abhi;
+this is a alias name for the current object
+
+controller = input output -> talk to html 
+service = logic
+config = url
+
+
+we will do now pay now button
+-->use Payment gateway
+-> use razorpay
+abhi sbb fake hoga, razaorpay key-->jbb original aaega, voh fake se replace hojaega
+
+newAPI website
